@@ -49,9 +49,6 @@ public class MainActivity extends AppCompatActivity {
     @Subscribe(threadMode = ThreadMode.MAIN)
     public void onMessageEvent(MessageEvent event) {
         Toast.makeText(MainActivity.this, event.message, Toast.LENGTH_SHORT).show();
-		 Toast.makeText(MainActivity.this, event.message, Toast.LENGTH_SHORT).show();
-		 Toast.makeText(MainActivity.this, event.message, Toast.LENGTH_SHORT).show();
-		 		 Toast.makeText(MainActivity.this, event.message, Toast.LENGTH_SHORT).show();
     }
 
     public class MessageEvent {
