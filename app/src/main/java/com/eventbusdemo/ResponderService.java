@@ -45,6 +45,7 @@ public class ResponderService extends Service {
     }
 
     public class ServiceMessageEvent {
+
         private String message;
 
         public ServiceMessageEvent(String text) {
